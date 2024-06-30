@@ -2,7 +2,7 @@
 
 ## Contact information
 
-![Murhuhn](https://cloud.mail.ru/gallery/320c7a15-8906-41d5-b870-a05fed3feba9.jpg)
+![Murhuhn](https://cloud.mail.ru/public/7SXi/dvXRi8Ci6)
 
 **Phone:** +7-920-787-34-73
 
