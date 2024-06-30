@@ -18,7 +18,7 @@ I'm 26, I have bachelor's and master's degree in linguistics (translator from En
 
 At the moment I work as middle programmer in the SEO technical department, which is responsible for making edits to websites. I work with Bitrix, WordPress, OpenCart, a little with ModX. In my work I got stuck on simle tasks and want to improve my skills.
 
-**Skills**
+## Skills
 
 - HTML
 - CSS
@@ -26,7 +26,7 @@ At the moment I work as middle programmer in the SEO technical department, which
 - Basic PHP
 - SASS
 
-**Languages**
+## Languages
 - Russian
 - English
 - German (but I haven't practice for a long time)
