@@ -8,4 +8,4 @@
 
 **Telegram:** @murhuhn
 
-**GitHub:** [GitHub Link] (https://github.com/murhuhn/)
+**GitHub:** [GitHub Link](https://github.com/murhuhn/)
