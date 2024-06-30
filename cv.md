@@ -2,6 +2,8 @@
 
 ## Contact information
 
+![Murhuhn](https://cloud.mail.ru/gallery/320c7a15-8906-41d5-b870-a05fed3feba9.jpg)
+
 **Phone:** +7-920-787-34-73
 
 **E-mail:** murhuhn@inbox.ru
