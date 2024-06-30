@@ -8,4 +8,4 @@
 
 **Telegram:** @murhuhn
 
-**GitHub:** [GitHub Link] ((https://skillbox.ru/media/))
+**GitHub:** [GitHub Link] (https://github.com/murhuhn/)
