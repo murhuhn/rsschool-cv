@@ -18,8 +18,13 @@ At the moment I work as middle programmer in the SEO technical department, which
 
 **Skills**
 
-*HTML
-*CSS
-*Basic JS
-*Basic PHP
-*SASS
+- HTML
+- CSS
+- Basic JS
+- Basic PHP
+- SASS
+
+**Languages**
+- Russian
+- English
+- German (but I haven't practice for a long time)
