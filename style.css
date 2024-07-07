@@ -1,0 +1,176 @@
+*, * :after, * :before {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header, footer {
+    background-color: #fff07b;
+    padding: 20px;
+}
+
+footer {
+    color: #da2d81;
+}
+
+nav a {
+    color: #da2d81;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-list li {
+        text-transform: uppercase;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.nav-list li a {
+    text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+}
+
+.info-block img {
+    width: 200px;
+    border-radius: 100px;
+            border: 8px solid #fff393;
+        -webkit-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+        margin-left: 100px;
+    color: #e12d81;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 40px 0 20px;
+    background: #f3f3f3;
+    height: 10px;
+    border: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #e12d81;
+    margin-top: 20px;
+}
+
+a {
+    color: #e12d81;
+}
+
+footer {
+        font-weight: 500;
+
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
+.rs-logo img {
+    width: 100px;
+}
+
+pre {
+        background: #fff07b;
+        color:#da2d81;
+        font-weight: 700;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-list li {
+        font-size: 10px;
+    }
+    .container {
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .nav-list {
+        flex-direction: column;
+    }
+        .container {
+        max-width: 500px;
+    }
+    pre {
+        font-size: 8px;
+    }
+    .info-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-block h1 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+        .container {
+        max-width: 300px;
+    }
+    pre {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+        .container {
+        max-width: 250px;
+    }
+footer .container {
+    display: flex;
+    flex-direction: column;
+
+}
+footer .container div {
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+}
