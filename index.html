@@ -1,8 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <title>CV</title>
-</head>
-<body>
-</body>
+  <head>
+    <title>CV</title>
+    <link rel="icon" href="/assets/img/mur.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contact
+                information</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">About
+                me</a></li>
+            <li class="nav-item"><a href="#skills"
+                class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#lang"
+                class="nav-link">Languages</a></li>
+            <li class="nav-item"><a href="#ex"
+                class="nav-link">Examples of work</a></li>
+            <li class="nav-item"><a href="#code"
+                class="nav-link">Example of code</a></li>
+                           <li class="nav-item"><a href="#ed"
+                class="nav-link">Education</a></li>
+                                           <li class="nav-item"><a href="#en"
+                class="nav-link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="info-block">
+          <img src="/assets/img/ph.png" alt="photo" />
+          <h1>Alina Afanaseva</h1>
+        </section>
+        <hr />
+        <section class="contact-block" id="contacts">
+          <h2>Contact information</h2>
+          <div><span class="bold">Phone:</span> +7-920-787-34-73</div>
+          <div><span class="bold">E-mail:</span> murhuhn@inbox.ru</div>
+          <div><span class="bold">Telegram:</span> @murhuhn</div>
+          <div><span class="bold">GitHub: </span><a
+              href="https://github.com/murhuhn/">murhuhn</a></div>
+        </section>
+        <hr />
+        <section class="contact-block" id="summary">
+          <h2>About me</h2>
+          <p>I’m 26, I have bachelor’s and master’s degree in linguistics
+            (translator from English/German), but after graduation I decided to
+            change my profession.</p>
+          <p>At the moment I work as middle programmer in the SEO technical
+            department, which is responsible for making edits to websites. I
+            work with Bitrix, WordPress, OpenCart, a little with ModX. In my
+            work I got stuck on simle tasks and want to improve my skills.</p>
+        </section>
+        <hr />
+        <section class="skills-block" id="skills">
+          <h2>Skills</h2>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Basic JS</p>
+          <p>Basic PHP</p>
+          <p>SASS</p>
+        </section>
+        <hr />
+        <section class="lang-block" id="lang">
+          <h2>Languages</h2>
+          <p>Russian</p>
+          <p>English</p>
+          <p>German (but I haven’t practice for a long time)</p>
+        </section>
+        <hr />
+        <section class="ex-block" id="ex">
+          <h2>Examples of work</h2>
+          <a href="https://github.com/murhuhn/demis">Project 1</a>
+        </section>
+        <hr />
+        <section class="code-block" id="code">
+          <h2>Example of code</h2>
+          <pre>
+        
+        &lt;div class="container">
+				&lt;?php 
+				$article = mysqli_fetch_assoc($query);?>
+				&lt;div class="news__detail">
+                &lt;h3>&lt;?php echo $article['headline']?>&lt;/h3>
+                &lt;div class="news__content">
+                  &lt;p class="news__text">&lt;?php echo $article['text'] ?>&lt;/p>
+                  &lt;div class="news__date">&lt;?php echo  $article['date'] ?>&lt;/div>
+                &lt;/div>
+              &lt;/div>
+				
+				&lt;a href="all_news.php" class="button">Все новости&lt;/a>
+			&lt;/div>
+    </pre>
+        </section>
+        <hr />
+                <section class="ed-block" id="ed">
+          <h2>Education</h2>
+          <div>Tula State Lev Tolstoy Pedagogical University</div>
+        </section>
+        <hr />
+                        <section class="en-block" id="en">
+          <h2>English</h2>
+          <div>B2</div>
+        </section>
+        <hr />
+
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="copyright">@ 2024</div>
+        <div><a href="https://github.com/murhuhn">Мой GitHub</a></div>
+        <div class="rs-logo"><a
+            href="https://rs.school/courses/javascript-ru"><img
+              src="/assets/img/logo-rsschool3.png" alt="rs-logo"></a></div>
+      </div>
+
+    </footer>
+  </body>
 </html>
