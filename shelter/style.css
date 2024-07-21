@@ -1,0 +1,110 @@
+body {
+  background: url('./assets/img/back-gr.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.header__logo-title {
+  font-family: Georgia;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  margin-bottom: 10px;
+}
+
+.header__logo-subtitle {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.95px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+
+}
+
+.header__nav ul {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.header__nav ul li {
+font-family: Arial;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color: #CDCDCD;
+cursor: pointer;
+
+}
+
+.header__nav ul li.active {
+  position: relative;
+}
+
+.header__nav ul li.active::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 3px;
+  background: #F1CDB3;
+  left: 0;
+}
+
+.start-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42px;
+}
+
+.banner-h1 {
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 57.2px;
+  color: #ffff;
+  max-width: 310px;
+
+}
+
+.start-screen__left p {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #CDCDCD;
+  margin-bottom: 42px;
+}
+
+.start-screen__left button {
+padding: 15px 45px 15px 45px;
+border-radius: 100px;
+background-color: #F1CDB3;
+color: #292929;
+font-family: Georgia;
+font-size: 17px;
+font-weight: 400;
+line-height: 22.1px;
+letter-spacing: 0.06em;
+}
+
+button {
+  cursor: pointer;
+}
